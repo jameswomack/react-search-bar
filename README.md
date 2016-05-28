@@ -77,6 +77,12 @@ type: `string`
 
 sets the `placeholder` attribute on the input field
 
+### createSearchTermSuggestionMarkup
+
+type: `function`
+
+Determines how the relationship between a searchTerm and suggestion is represented in the DOM
+
 ## License
 
 MIT
