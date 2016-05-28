@@ -1,18 +1,18 @@
-# react-search-bar
+# search-bar-component
 
-A search bar with autosuggest, built in React.
+A search bar component with Google-like autosuggest, built in React.
 
 ![search bar](http://s3.io/aU1rkdpjjSajYDvv8Xlv069w.gif)
 
 ## Installation
 
 ```
-npm install react-search-bar --save
+npm i search-bar-component -SE
 ```
 
 ## Demo
 
-View the [demo online](https://vakhtang.github.io/react-search-bar).
+View the [demo online](https://jameswomack.github.io/search-bar-component).
 
 Alternatively, run it locally:
 
