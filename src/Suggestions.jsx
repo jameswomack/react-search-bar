@@ -1,5 +1,4 @@
-import {
-  Component,
+import React, {
   PropTypes
 } from 'react';
 import classNames from 'classnames';
@@ -12,7 +11,7 @@ function createSearchTermSuggestionMarkup (suggestion, searchTerm) {
 }
 
 
-export default class Suggestions extends Component {
+export default class Suggestions extends React.Component {
   static propTypes = {
     createSearchTermSuggestionMarkup : PropTypes.function,
     highlightedItem                  : PropTypes.number,
