@@ -13,7 +13,7 @@ function createSearchTermSuggestionMarkup (suggestion, searchTerm) {
 
 export default class Suggestions extends React.Component {
   static propTypes = {
-    createSearchTermSuggestionMarkup : PropTypes.function,
+    createSearchTermSuggestionMarkup : PropTypes.func,
     highlightedItem                  : PropTypes.number,
     searchTerm                       : PropTypes.string.isRequired,
     suggestions                      : PropTypes.array.isRequired
